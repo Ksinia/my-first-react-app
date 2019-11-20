@@ -1,21 +1,23 @@
 import React from "react";
 import logo from "./logo.svg";
-import "./App.css";
 import Title from "./components/Title";
 import LikeCounter from "./components/LikeCounter";
 import Animals from "./components/Animals";
 import ArticleList from "./components/ArticleList";
 import TodoList from "./components/TodoList";
+import Scoreboard from "./components/Scoreboard";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <main>
-        <Title content="Some Simple Title" />
-        <LikeCounter />
+        {/* <Title content="Some Simple Title" /> */}
+        {/* <LikeCounter />
         <Animals />
         <ArticleList />
-        <TodoList />
+        <TodoList /> */}
+        <Scoreboard />
       </main>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
