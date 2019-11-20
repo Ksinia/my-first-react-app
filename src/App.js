@@ -1,10 +1,10 @@
 import React from "react";
 import logo from "./logo.svg";
-import Title from "./components/Title";
-import LikeCounter from "./components/LikeCounter";
-import Animals from "./components/Animals";
-import ArticleList from "./components/ArticleList";
-import TodoList from "./components/TodoList";
+import Title from "./examplesOfComponents/Title";
+import LikeCounter from "./examplesOfComponents/LikeCounter";
+import Animals from "./examplesOfComponents/Animals";
+import ArticleList from "./examplesOfComponents/ArticleList";
+import TodoList from "./examplesOfComponents/TodoList";
 import Scoreboard from "./components/Scoreboard";
 import "./App.css";
 
